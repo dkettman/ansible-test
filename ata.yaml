@@ -13,7 +13,7 @@
 
 # Below task will execute the list of directories and files present
     - name: "just execute a hostname command"
-      shell: "hostname"
+      shell: "/usr/bin/hostname"
       register: "output2"
 # The Output of the above task will be displayed on the Screen
     - debug: var=output2.stdout_lines
