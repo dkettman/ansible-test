@@ -1,0 +1,5 @@
+plugin: microsoft.ad.ldap
+auth_protocol: negotiate
+username: ansible
+password: New123Pass!!
+
